@@ -5,7 +5,7 @@ Clone this repo and run the following command
 ````
 npm install
 ````
-You should see that you have an .env file and a creds file. Please not these will no longer work after review by the client as the credentials and services associated will be deactivated.
+You should see that you have an .env file and a creds file. Please note these _will no longer work after review_ by the client as the credentials and services associated will be deactivated.
 
 # Start
 
