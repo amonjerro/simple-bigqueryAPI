@@ -19,7 +19,7 @@ class Model {
         return statement
     }
     get(fields){
-        if(fields || fields.length > 0){
+        if(fields && fields.length > 0){
             const gettable = this.fields.filter((e)=>{return fields.includes(e)} )
             this.db.query(gettable).from(this.table)
             return this
