@@ -1,3 +1,9 @@
+# Brief Description
+
+Client request was to load data to an instance of BigQuery API service in Google Cloud Platform and to make sure that it is queryable.
+
+In order to test that the data is loaded and that it can be queryed by remote systems (and, therefore, by the BigQuery UI as well), this very basic system was created.
+
 # Setup
 
 Clone this repo and run the following command
